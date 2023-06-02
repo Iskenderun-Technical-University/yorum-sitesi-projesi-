@@ -42,8 +42,10 @@
     <script src="sahsiyet.js"></script>
 
     <div class="comment-area">
-        <textarea id="comment-textarea" placeholder="Yorumunuzu buraya yazın..."></textarea>
+        <form method="POST" action="sahsiyet.php">
+        <textarea id="comment-textarea" name="yorum" placeholder="Yorumunuzu buraya yazın..."></textarea>
         <button id="submit-button">Gönder</button>
+    </form>
     </div>
 
     <div id="comment-section"></div>
